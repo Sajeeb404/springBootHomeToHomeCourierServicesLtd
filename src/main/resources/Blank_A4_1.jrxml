@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.3.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="834301f4-879b-412a-9c19-844a25f6fe70">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="CourierPdf"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="253"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="733"/>
+	<queryString language="SQL">
+		<![CDATA[]]>
+	</queryString>
+	<field name="id" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.label" value="id"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="active" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.label" value="active"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="created_at" class="java.time.LocalDateTime">
+		<property name="com.jaspersoft.studio.field.label" value="created_at"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="created_by" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="created_by"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="updated_at" class="java.time.LocalDateTime">
+		<property name="com.jaspersoft.studio.field.label" value="updated_at"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="updated_by" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="updated_by"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="charge_amount" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.label" value="charge_amount"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="courier_status" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="courier_status"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="p_receiver_address" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="p_receiver_address"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="p_receiver_gender" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="p_receiver_gender"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="p_receiver_name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="p_receiver_name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="p_receiver_phone" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="p_receiver_phone"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="p_sender_address" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="p_sender_address"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="p_sender_gender" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="p_sender_gender"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="p_sender_name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="p_sender_name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="p_sender_phone" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="p_sender_phone"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="payment_method" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="payment_method"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="prodcuttype" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="prodcuttype"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="productheight" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.label" value="productheight"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="productname" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="productname"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="productweight" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.label" value="productweight"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="productwidth" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.label" value="productwidth"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<field name="user_name" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="user_name"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="product_information"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="102" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="86" uuid="3bb289a7-8b0d-449c-9a54-9b1516bad22b"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="26" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Home To Home Courier Service Ltd.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="30" width="555" height="30" uuid="aaa49af4-0856-459a-b5be-ec3ce81299e9"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="18" isBold="false"/>
+				</textElement>
+				<text><![CDATA[271/A, Purana Paltan Lane, Dhaka-1217]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="453" y="61" width="100" height="30" uuid="ff038fbc-42d7-4cfa-acf6-f7a1a44b631e"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{created_at}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="514" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="7" width="555" height="30" uuid="35cef3b9-86f2-4cbb-9a6d-0c271e1364fa"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sender Information]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="39" width="100" height="30" uuid="b58db46d-40e5-440a-9fa1-e716cf423def"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Name :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="139" y="40" width="140" height="30" uuid="bb67bcaf-f576-4776-bc7a-ad4ec6fc2a6e"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p_sender_name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="60" width="100" height="30" uuid="d4f52086-8b9b-4847-92f8-b47256ebf5b9"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gender :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="138" y="61" width="140" height="30" uuid="e3ccc5e1-f253-4050-b9ca-3c98d19155d8"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p_sender_gender}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="78" width="100" height="30" uuid="fc7f63df-7766-4eed-99d3-aaa006c156fb"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pone Number :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="138" y="80" width="140" height="30" uuid="82840818-30b4-45f0-82c6-8a75767d89e4"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p_sender_phone}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="97" width="100" height="30" uuid="83f547cc-d89d-4774-bcda-1bab82b24faf"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="138" y="99" width="140" height="30" uuid="ffc483c3-fb13-489e-b72d-8ebc64031c12"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p_sender_address}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="130" width="555" height="30" uuid="a5095a06-ed01-4274-aaeb-581af50b66c1"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Reciver Information]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="162" width="100" height="30" uuid="6aedef27-78f8-4585-8a38-c48beaa28e78"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Name :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="140" y="163" width="140" height="30" uuid="745d7e77-ad42-4cdc-86d0-f4ff316092aa"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p_receiver_name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="183" width="100" height="30" uuid="5cf08707-21f2-4ee9-924d-2c957b2b0396"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gender :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="139" y="184" width="140" height="30" uuid="d69144e9-99da-4ed5-924e-7164c9ed59a3"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p_receiver_gender}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="201" width="100" height="30" uuid="0853ab88-0e6c-461f-85dd-75e8eb0cdb65"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pone Number :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="139" y="203" width="140" height="30" uuid="58eadaa3-a1ea-4c3e-ad8e-4570378322fb"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p_sender_phone}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="220" width="100" height="30" uuid="2e3e6813-99ce-4cc6-b55d-6e4a3c17f02a"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="139" y="222" width="140" height="30" uuid="86f63721-694f-43d2-b20d-2afaf72de124"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p_sender_address}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="9" width="555" height="1" uuid="4bd46791-2a77-49a2-963f-46d358f9d493"/>
+			</line>
+			<line>
+				<reportElement x="1" y="128" width="555" height="1" uuid="1fe4eeec-cf6d-4ea0-bbee-3e00a99d3e28"/>
+			</line>
+			<line>
+				<reportElement x="1" y="252" width="555" height="1" uuid="f4679ff1-0b9d-4993-b064-a273e54b7b94"/>
+			</line>
+			<staticText>
+				<reportElement x="-1" y="252" width="555" height="30" uuid="daf9d2a1-7a02-4385-b1ea-e612bba2aadd"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Content Information]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="284" width="100" height="30" uuid="54657349-28c6-4b1c-ab4d-4aa33fbe71e8"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Content Type :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="138" y="285" width="140" height="30" uuid="6728212f-5eb2-488c-bafb-ff66e7592cad"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{prodcuttype}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="-1" y="305" width="100" height="30" uuid="3edc7d9a-bb5d-4833-882c-4d0945948823"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Content Name :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="137" y="306" width="140" height="30" uuid="c4e3954f-3060-442f-b07f-2423af1e8f0f"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{p_receiver_gender}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="323" width="120" height="30" uuid="0c4d9e76-9eb9-4a91-b89c-5c2fadfccccd"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Content Weight]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="137" y="325" width="140" height="30" uuid="b68f3e41-23aa-4954-bc64-0f687a202813"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{productweight}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="-1" y="359" width="555" height="1" uuid="37a43705-2b4a-4d21-8e9c-dae47c4ff7ee"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="360" width="555" height="30" uuid="5a9e7ba1-dfcc-4174-8365-f0ed857349c6"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="22" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Payment Information]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="392" width="100" height="30" uuid="941ca4d9-a2a8-4089-9f50-bbf448c26975"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total Price]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="139" y="393" width="140" height="30" uuid="fb4f71c3-7f88-4572-a4df-10cf30527a72"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{charge_amount}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="413" width="100" height="30" uuid="ed3f9090-862c-4690-8d57-d3c702c74119"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Status]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="138" y="414" width="140" height="30" uuid="4f00167f-8eaf-4eaa-9793-e88d42612462"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{payment_method}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="431" width="120" height="30" uuid="d3387695-592b-4ba0-a93a-ba979a499620"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Payment Method]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="138" y="433" width="140" height="30" uuid="b12d515b-3f03-4fd3-8215-b49860abd210"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{payment_method}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="467" width="555" height="1" uuid="e0e541e4-277f-4fde-9721-986b871ecc15"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="57" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="33" width="555" height="22" uuid="16a053bf-117d-405f-b08c-a0ed28ca4c49"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font size="13" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Mobile:- 01515-000000, Phone:-05465-021545]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="13" width="555" height="28" uuid="928a7ab2-1821-47e3-b998-32def6b90bf7"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font size="18" isBold="false"/>
+				</textElement>
+				<text><![CDATA[271/A, Purana Paltan Lane, Dhaka-1217]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
