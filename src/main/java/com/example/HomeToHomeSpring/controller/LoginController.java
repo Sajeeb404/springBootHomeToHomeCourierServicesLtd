@@ -1,6 +1,7 @@
 package com.example.HomeToHomeSpring.controller;
 
 import com.example.HomeToHomeSpring.dto.*;
+import com.example.HomeToHomeSpring.model.BranchModel;
 import com.example.HomeToHomeSpring.model.Role;
 import com.example.HomeToHomeSpring.model.User;
 import com.example.HomeToHomeSpring.repository.RoleDao;
@@ -51,6 +52,11 @@ public class LoginController {
         return userDao.save(user);
     }
 
+
+    @PutMapping("/updateUser")
+    public void updateUsers(@RequestBody User user){
+        userDao.save(user);
+    }
 
     @DeleteMapping({"/user"})
     public ResponseEntity<?> delete(@RequestParam (value = "username") String username, @RequestParam(value = "status", required = false) Boolean status) {

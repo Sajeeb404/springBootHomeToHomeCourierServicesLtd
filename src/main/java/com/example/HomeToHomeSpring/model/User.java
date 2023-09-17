@@ -26,6 +26,7 @@ public class User {
     private String empCatagoryName;
     private String phNumber;
     private String gender;
+    private String address;
 
     private boolean credentialsNonExpired;
     private boolean enabled = true;
